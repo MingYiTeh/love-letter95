@@ -1,0 +1,15 @@
+.main-body{
+    background-image:url('https://source.unsplash.com/TRMLSoaqXh8/1000x450');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-position: center;
+}
+
+.main-body h1{
+    color: white;
+}
+
