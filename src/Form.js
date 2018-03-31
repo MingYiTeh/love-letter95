@@ -39,6 +39,7 @@ import axios from 'axios';
           .then(function (response) {
             console.log(response);
             _this.refreshConfession();
+            _this.setState({name:"",message:""});
           })
           .catch(function (error) {
             console.log(error);
