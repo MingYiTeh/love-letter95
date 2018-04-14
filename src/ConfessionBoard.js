@@ -14,7 +14,7 @@ class ConfessionBoard extends Component{
 
     refreshConfessionData(){
         var _this = this;
-        axios.get('http://localhost:8080/confessions')
+        axios.get('https://love-letter95-server.herokuapp.com/confessions')
         .then(function(response){
             _this.setState({confessionData: response.data.confessions});
             console.log("Retrieve Confession Success");

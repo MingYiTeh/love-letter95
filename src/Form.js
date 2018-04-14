@@ -32,7 +32,7 @@ import axios from 'axios';
         e.preventDefault();
         var _this = this; 
         console.log('{"name":"'+this.state.name+'","message":"'+this.state.message+'"}')
-        axios.post('http://localhost:8080/confession', {
+        axios.post('https://love-letter95-server.herokuapp.com/confession', {
             name: this.state.name,
             message: this.state.message
           })
